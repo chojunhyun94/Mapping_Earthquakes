@@ -13,9 +13,19 @@ let streets = L.tileLayer("https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{
   tileSize: 512,
   maxZoom: 18,
   zoomOffset: -1,
-  id: "mapbox/streets-v11",
+  id: "mapbox/dark-v10",
   accessToken: API_KEY
 });
 
 // Then we add our 'graymap' tile layer to the map.
 streets.addTo(map);
+
+
+let marker = L.marker([34.0522, -118.2437]).addTo(map);
+
+L.circleMarker([34.0522, -118.2437], {
+  radius:30,
+  color:'black',
+  fillColor:'yellow',
+  opacity:0.5
+}).addTo(map);
