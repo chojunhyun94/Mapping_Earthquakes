@@ -11,4 +11,4 @@ The map is split into 3 layers. Standard, Satellite, and Dark.
 ![images/dark_map.PNG](images/dark_map.PNG)
 
 In addition, there are 3 overlays which displays the tectonic plates, all earthquakes, and major earthquakes (>4.5 in magnitude).
-![layer_menu.PNG](images/layout_menu.PNG)
+![layer_menu.PNG](images/layer_menu.PNG)
